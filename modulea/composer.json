@@ -1,0 +1,25 @@
+{
+    "name": "test/modulea",
+    "description": "Description de Module A",
+    "type": "prestashop-module",
+    "require": {
+        "php": ">=7.1",
+        "prestashop/prestashop": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\Modulea\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Votre Nom",
+            "email": "votre.email@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
