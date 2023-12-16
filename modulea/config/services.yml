@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    public: true
+
+  presta_shop.module.modulea.abstract_parent_service:
+    class: PrestaShop\Module\Modulea\AbstractParentService
+    abstract: true

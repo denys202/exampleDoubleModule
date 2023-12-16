@@ -1,6 +1,12 @@
 services:
-    _defaults:
-        public: true
+  _defaults:
+    public: true
 
-    abc.module_a.your_service:
-        class: PrestaShop\Module\Modulea\YourService
+  abc.module_a.your_service:
+    class: PrestaShop\Module\Modulea\YourService
+
+  presta_shop.module.abc.child_service:
+    class: PrestaShop\Module\Abc\ChildService
+    parent: 'presta_shop.module.modulea.abstract_parent_service'
+    public: true
+

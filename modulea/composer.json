@@ -3,8 +3,7 @@
     "description": "Description de Module A",
     "type": "prestashop-module",
     "require": {
-        "php": ">=7.1",
-        "prestashop/prestashop": "^1.7"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
